@@ -14,8 +14,8 @@ spec:
     spec:
       containers:
       - name: backend
-        image: my-flask-app:latest
-        imagePullPolicy: Never
+        image: registry.gitlab.com/mrhdavoodi/docker-images/flask-app:v1
+        imagePullPolicy: Always
         ports:
         - containerPort: 9000
 ---
