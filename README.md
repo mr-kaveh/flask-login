@@ -1,13 +1,14 @@
+
 # flask-login
 flask-login
 Deploying a Simple Flask App with kubernetes
 
 ## Creating docker Image
-  $ docker build -t registry.gitlab.com/mrhdavoodi/docker-images/flask-app:v1 .
-  $ docker push registry.gitlab.com/mrhdavoodi/docker-images/flask-app:v1
+	 $ docker build -t registry.gitlab.com/mrhdavoodi/docker-images/flask-app:v1 .
+	 $ docker push registry.gitlab.com/mrhdavoodi/docker-images/flask-app:v1
 
 ## Apply the Deployment
-  $ kubectl apply -f k8s-modules/backend-deployment.yaml
+	  $ kubectl apply -f k8s-modules/backend-deployment.yaml
 
 ## Useful commands and Refs
 
